@@ -1,1 +1,1 @@
-<object data="CV.pdf" type='application/pdf'/>
+<object data="CV.pdf">
