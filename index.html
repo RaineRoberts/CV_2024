@@ -6,19 +6,11 @@
     <title>CV Viewer</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
             height: 100vh;
-            background-color: #f4f4f4;
-        }
-        .pdf-container {
-            width: 80%;
-            height: 90%;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 100vw;
+            overflow: hidden;
         }
         embed {
             width: 100%;
@@ -28,8 +20,6 @@
     </style>
 </head>
 <body>
-    <div class="pdf-container">
-        <embed src="CV.pdf" type="application/pdf">
-    </div>
+    <embed src="CV.pdf" type="application/pdf">
 </body>
 </html>
